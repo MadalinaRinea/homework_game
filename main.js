@@ -1,4 +1,4 @@
-var userChoice = Math.random();
+let userChoice = Math.random();
 if (userChoice < 0.34) {
     userChoice = "Rock";
 } else if(userChoice <= 0.67) {
@@ -7,7 +7,7 @@ if (userChoice < 0.34) {
     userChoice = "Scissors";
 };
 
-var computerChoice = Math.random();
+let computerChoice = Math.random();
 if (computerChoice < 0.34) {
     computerChoice = "Rock";
 } else if(computerChoice <= 0.67) {

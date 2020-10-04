@@ -1,13 +1,13 @@
-// let userChoice = Math.random();
+// var userChoice = Math.random();
 // if (userChoice < 0.34) {
-//     userChoice = "rock";
+//     userChoice = "Rock";
 // } else if(userChoice <= 0.67) {
-//     userChoice = "paper";
+//     userChoice = "Paper";
 // } else {
-//     userChoice = "scissors";
+//     userChoice = "Scissors";
 // };
 
-let computerChoice = Math.random();
+var computerChoice = Math.random();
 if (computerChoice < 0.34) {
     computerChoice = "Rock";
 } else if(computerChoice <= 0.67) {
@@ -16,9 +16,9 @@ if (computerChoice < 0.34) {
     computerChoice = "Scissors";
 }
 
-// console.log("User Choice: " + userChoice);
+console.log("User Choice: " + userChoice);
 console.log("Computer Choice: " + computerChoice);
-// console.log(play(userChoice, computerChoice));
+console.log(play(userChoice, computerChoice));
 
 function play(choice1, choice2) {
     
